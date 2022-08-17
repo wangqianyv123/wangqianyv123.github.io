@@ -16,26 +16,21 @@
   <meta name="author" content="王乾宇">
   <meta name="keywords" content="">
   
-    <meta name="description" content="搭建一个个人博客">
-<meta property="og:type" content="article">
-<meta property="og:title" content="hexo+fluid搭建博客">
-<meta property="og:url" content="https://wangqianyv123.github.io/2022/08/17/hexo-fluid%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/index.html">
+    <meta property="og:type" content="website">
+<meta property="og:title" content="关于">
+<meta property="og:url" content="https://wangqianyv123.github.io/about/index.html">
 <meta property="og:site_name" content="我的博客">
-<meta property="og:description" content="搭建一个个人博客">
 <meta property="og:locale" content="zh_CN">
-<meta property="og:image" content="https://wangqianyv123.github.io/img/1.png">
-<meta property="article:published_time" content="2022-08-17T10:23:53.000Z">
-<meta property="article:modified_time" content="2022-08-17T13:30:10.508Z">
+<meta property="article:published_time" content="2022-08-17T13:18:37.000Z">
+<meta property="article:modified_time" content="2022-08-17T13:21:19.412Z">
 <meta property="article:author" content="王乾宇">
-<meta property="article:tag" content="博客">
 <meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:image" content="https://wangqianyv123.github.io/img/1.png">
   
   
     <meta name="referrer" content="no-referrer-when-downgrade">
   
   
-  <title>hexo+fluid搭建博客 - 我的博客</title>
+  <title>关于 - 我的博客</title>
 
   <link  rel="stylesheet" href="https://lib.baomitu.com/twitter-bootstrap/4.6.1/css/bootstrap.min.css" />
 
@@ -123,7 +118,7 @@
   <header>
     
 
-<div class="header-inner" style="height: 70vh;">
+<div class="header-inner" style="height: 60vh;">
   <nav id="navbar" class="navbar fixed-top  navbar-expand-lg navbar-dark scrolling-navbar">
   <div class="container">
     <a class="navbar-brand" href="/">
@@ -240,49 +235,9 @@
       <div class="banner-text text-center fade-in-up">
         <div class="h2">
           
-            <span id="subtitle" data-typed-text="hexo+fluid搭建博客"></span>
+            <span id="subtitle" data-typed-text="关于"></span>
           
         </div>
-
-        
-          
-  <div class="mt-3">
-    
-    
-      <span class="post-meta">
-        <i class="iconfont icon-date-fill" aria-hidden="true"></i>
-        <time datetime="2022-08-17 18:23" pubdate>
-          2022年8月17日 晚上
-        </time>
-      </span>
-    
-  </div>
-
-  <div class="mt-1">
-    
-      <span class="post-meta mr-2">
-        <i class="iconfont icon-chart"></i>
-        
-          490 字
-        
-      </span>
-    
-
-    
-      <span class="post-meta mr-2">
-        <i class="iconfont icon-clock-fill"></i>
-        
-        
-        
-          5 分钟
-        
-      </span>
-    
-
-    
-    
-  </div>
-
 
         
       </div>
@@ -298,203 +253,63 @@
 
   <main>
     
-      
-
-<div class="container-fluid nopadding-x">
-  <div class="row nomargin-x">
-    <div class="side-col d-none d-lg-block col-lg-2">
-      
-
-    </div>
-
-    <div class="col-lg-8 nopadding-x-md">
-      <div class="container nopadding-x-md" id="board-ctn">
-        <div id="board">
-          <article class="post-content mx-auto">
-            <!-- SEO header -->
-            <h1 style="display: none">hexo+fluid搭建博客</h1>
-            
-            
-              <div class="markdown-body">
-                
-                <p><img src="/2022/08/17/hexo-fluid%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/1.png" srcset="/img/loading.gif" lazyload></p>
-<h2 id="hexo安装与配置"><a href="#hexo安装与配置" class="headerlink" title="hexo安装与配置"></a>hexo安装与配置</h2><p class="note note-primary">hexo有2种_config.yml文件，一个是根目录下的全局的_config.yml，一个是各个theme下的</p>
-
-<ol>
-<li>下载并安装node.js</li>
-<li>命令行安装hexo </li>
-<li>配置github</li>
-<li>配置SSH免密登录</li>
-<li>搭建博客</li>
-</ol>
-<p><a target="_blank" rel="noopener" href="https://www.bilibili.com/read/cv12633102">参考文章</a></p>
-<h2 id="评论功能"><a href="#评论功能" class="headerlink" title="评论功能"></a>评论功能</h2><p>在国际版leancloud创建应用</p>
-<p><img src="https://raw.githubusercontent.com/wangqianyv123/image-hosting/main/img/202208172110804.png" srcset="/img/loading.gif" lazyload></p>
-<p>创建Commnet数据库</p>
-<p><img src="https://raw.githubusercontent.com/wangqianyv123/image-hosting/main/img/202208172109839.png" srcset="/img/loading.gif" lazyload></p>
-<p>修改hexo的主题配置</p>
-<figure class="highlight yml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><code class="hljs yml"><span class="hljs-attr">valine:</span><br>  <span class="hljs-attr">enable:</span> <span class="hljs-literal">true</span><br>  <span class="hljs-attr">appid:</span>  <span class="hljs-string">your</span> <span class="hljs-string">app</span> <span class="hljs-string">id</span><br>  <span class="hljs-attr">appkey:</span> <span class="hljs-string">your</span> <span class="hljs-string">app</span> <span class="hljs-string">key</span><br>  <span class="hljs-attr">notify:</span> <span class="hljs-literal">false</span> <span class="hljs-comment"># mail notifier , https://github.com/xCss/Valine/wiki</span><br>  <span class="hljs-attr">verify:</span> <span class="hljs-literal">false</span> <span class="hljs-comment"># Verification code</span><br>  <span class="hljs-attr">placeholder:</span> <span class="hljs-string">just</span> <span class="hljs-string">so</span> <span class="hljs-string">so</span><br>  <span class="hljs-attr">guest_info:</span> [<span class="hljs-string">nick</span>,<span class="hljs-string">mail</span>,<span class="hljs-string">link</span>]<br>  <span class="hljs-attr">pageSize:</span> <span class="hljs-number">10</span><br></code></pre></td></tr></table></figure>
-
-<h2 id="图床"><a href="#图床" class="headerlink" title="图床"></a>图床</h2><blockquote>
-<p>使用又拍云+picgo构建图床。</p>
-</blockquote>
-<p>picgo我们已经很熟悉了，可以快捷上传图片到图床。使用又拍云的云存储服务可以方便的搭建图床。</p>
-<p>其中 <strong>设定存储空间名</strong> 为服务名，还需要设定关键的加速域名</p>
-<p class="note note-primary">
-发现博客上线github后无法正常显示图片，因此又采用了GitHub图床。
-</p>
-
-
-<p><img src="https://raw.githubusercontent.com/wangqianyv123/image-hosting/main/img/202208172109946.png" srcset="/img/loading.gif" lazyload></p>
-<p><img src="https://raw.githubusercontent.com/wangqianyv123/image-hosting/main/img/202208172108613.jpg" srcset="/img/loading.gif" lazyload></p>
-
-                
-              </div>
-            
-            <hr/>
-            <div>
-              <div class="post-metas my-3">
-  
-    <div class="post-meta mr-3 d-flex align-items-center">
-      <i class="iconfont icon-category"></i>
-      
-
-<span class="category-chains">
-  
-  
-    
-      <span class="category-chain">
-        
-  <a href="/categories/%E6%97%A5%E5%B8%B8/" class="category-chain-item">日常</a>
-  
-  
-
-      </span>
-    
-  
-</span>
-
-    </div>
-  
-  
-    <div class="post-meta">
-      <i class="iconfont icon-tags"></i>
-      
-        <a href="/tags/%E5%8D%9A%E5%AE%A2/">#博客</a>
-      
-    </div>
-  
-</div>
-
-
-              
-  
-
-  <div class="license-box my-3">
-    <div class="license-title">
-      <div>hexo+fluid搭建博客</div>
-      <div>https://wangqianyv123.github.io/2022/08/17/hexo-fluid搭建博客/</div>
-    </div>
-    <div class="license-meta">
-      
-        <div class="license-meta-item">
-          <div>作者</div>
-          <div>王乾宇</div>
-        </div>
-      
-      
-        <div class="license-meta-item license-meta-date">
-          <div>发布于</div>
-          <div>2022年8月17日</div>
-        </div>
-      
-      
-      <div class="license-meta-item">
-        <div>许可协议</div>
-        <div>
+      <div class="container nopadding-x-md">
+        <div id="board"
+          >
           
-            
-            
-              <a target="_blank" href="https://creativecommons.org/licenses/by/4.0/">
-              <span class="hint--top hint--rounded" aria-label="BY - 署名">
-                <i class="iconfont icon-by"></i>
-              </span>
-              </a>
-            
-          
-        </div>
-      </div>
-    </div>
-    <div class="license-icon iconfont"></div>
-  </div>
-
-
-
-              
-                <div class="post-prevnext my-3">
-                  <article class="post-prev col-6">
-                    
-                    
-                  </article>
-                  <article class="post-next col-6">
-                    
-                    
-                  </article>
-                </div>
-              
+            <div class="about-avatar">
+              <img src="https://cdn.acwing.com/media/user/profile/photo/115622_lg_37336fb910.jpg" srcset="/img/loading.gif" lazyload class="img-fluid" alt="avatar">
             </div>
+          
+          <div class="container">
+            <div class="row">
+              <div class="col-12 col-md-10 m-auto">
+                
 
-            
-  <article id="comments" lazyload>
-    
-  <div id="valine"></div>
-  <script type="text/javascript">
-    Fluid.utils.loadComments('#valine', function() {
-      Fluid.utils.createScript('https://lib.baomitu.com/valine/1.4.17/Valine.min.js', function() {
-        var options = Object.assign(
-          {"appId":"SW4CfntNKG3lelDzTewIfQ8h-MdYXbMMI","appKey":"mWVBucOWhtV2MFw6N7vtKaEy","path":"window.location.pathname","placeholder":"吐槽","avatar":"retro","meta":["nick","mail","link"],"requiredFields":[],"pageSize":10,"lang":"zh-CN","highlight":false,"recordIP":false,"serverURLs":"https://sw4cfntn.api.lncldglobal.com","emojiCDN":null,"emojiMaps":null,"enableQQ":false},
-          {
-            el: "#valine",
-            path: window.location.pathname
-          }
-        )
-        new Valine(options);
-        Fluid.utils.waitElementVisible('#valine .vcontent', () => {
-          var imgSelector = '#valine .vcontent img:not(.vemoji)';
-          Fluid.plugins.imageCaption(imgSelector);
-          Fluid.plugins.fancyBox(imgSelector);
-        })
-      });
-    });
-  </script>
-  <noscript>Please enable JavaScript to view the comments</noscript>
-
-
-  </article>
-
-
-          </article>
-        </div>
-      </div>
-    </div>
-
-    <div class="side-col d-none d-lg-block col-lg-2">
+<div class="text-center">
+  <div class="about-info">
+    <div class="about-name">王乾宇</div>
+    <div class="about-intro">从初学者开始</div>
+    <div class="about-icons">
       
-  <aside class="sidebar" style="margin-left: -1rem">
-    <div id="toc">
-  <p class="toc-header"><i class="iconfont icon-list"></i>&nbsp;目录</p>
-  <div class="toc-body" id="toc-body"></div>
-</div>
-
-
-
-  </aside>
-
-
+        
+        
+        
+        <a href=https://github.com/wangqianyv123/ class="
+           hint--bottom hint--rounded"
+           aria-label=GitHub
+           target="_blank"
+        >
+          <i class="iconfont icon-github-fill" aria-hidden="true"></i>
+          
+        </a>
+      
+        
+        
+        
+        <a  class="qr-trigger
+           "
+           
+           target="_self"
+        >
+          <i class="iconfont icon-wechat-fill" aria-hidden="true"></i>
+          
+            <img class="qr-img" src="/img/wx.jpg" srcset="/img/loading.gif" lazyload alt="qrcode" />
+          
+        </a>
+      
     </div>
   </div>
 </div>
 
+<article class="about-content page-content mt-5">
+  <div class="markdown-body">
+    
+  </div>
+
+  
+</article>
+
 
 
 
@@ -521,8 +336,11 @@
 
 
 
-
-
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     
 
     
@@ -639,34 +457,6 @@
   
 
 
-
-
-  
-<script>
-  Fluid.utils.createScript('https://lib.baomitu.com/tocbot/4.18.2/tocbot.min.js', function() {
-    var toc = jQuery('#toc');
-    if (toc.length === 0 || !window.tocbot) { return; }
-    var boardCtn = jQuery('#board-ctn');
-    var boardTop = boardCtn.offset().top;
-
-    window.tocbot.init({
-      tocSelector     : '#toc-body',
-      contentSelector : '.markdown-body',
-      headingSelector : CONFIG.toc.headingSelector || 'h1,h2,h3,h4,h5,h6',
-      linkClass       : 'tocbot-link',
-      activeLinkClass : 'tocbot-active-link',
-      listClass       : 'tocbot-list',
-      isCollapsedClass: 'tocbot-is-collapsed',
-      collapsibleClass: 'tocbot-is-collapsible',
-      collapseDepth   : CONFIG.toc.collapseDepth || 0,
-      scrollSmooth    : true,
-      headingsOffset  : -boardTop
-    });
-    if (toc.find('.toc-list-item').length > 0) {
-      toc.css('visibility', 'visible');
-    }
-  });
-</script>
 
 
   <script src=https://lib.baomitu.com/clipboard.js/2.0.10/clipboard.min.js></script>
